@@ -6,7 +6,6 @@ import random
 import sys
 path = str(sys.argv[1])
 atr = int(sys.argv[2])
-
 # Build the SparkSession
 spark = SparkSession.builder \
     .master("local[3]") \
